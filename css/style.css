@@ -1,0 +1,282 @@
+/*Global css start*/
+section{
+    padding: 80px 0px;
+}
+/*Global css end*/
+/*header section start*/
+header{
+    background:url(../image/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header .nav-item .nav-link{  
+    color: #fff !important; 
+    font-family: 'Raleway', serif;
+}
+header .nav-item .active{
+    background: #e8db45;
+}
+header .header-text{
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+header .header-text h1{
+    color: #fff;
+    font-family: 'Open Sans', serif;
+    font-size: 65px;
+    padding: 0px 15%;
+}
+header .header-text p{
+    color: #fff;
+    font-family: 'Raleway', serif;
+    font-size: 22px;
+    padding: 0px 10%;
+}
+header .header-text .btn{
+    background: #e84545; 
+    border: 1px solid #e84545;  
+    border-radius: 0 !important;  
+    margin-top: 5%; 
+    color: #fff;
+}
+header .header-text .btn:hover{ 
+    background: #c30a0a;
+    border: 1px solid #c30a0a;
+}
+/*Header Section End*/
+/*Feature Section Start*/
+.feature-bootom-margin{
+    margin-bottom: 5%;
+}
+.feature-col-padding{
+    padding: 0 2%;
+}
+.feature .feature-control h4{  
+    font-family: 'Raleway', serif; 
+    font-size: 14px;  
+    font-weight: 700;  
+    color: #2d3033; 
+    margin-top: 8%;
+}
+.feature .feature-control p{  
+    font-family: 'Raleway', serif;  
+    font-size: 14px; 
+    color: #93989d;
+}
+/*Feature Section End*/
+/*Portfolio Section Start*/
+.portfolio .row{
+    margin: 0 !important;
+}
+.portfolio .col-md-6{
+    padding:2px;
+}
+.portfolio .col-lg-3{
+    padding:2px;
+}
+.portfolio .text-control{
+    width: 100%;
+    height: 100%;
+    background: rgb(231, 84, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s linear;
+    opacity: 0;
+}
+.portfolio .text-control:hover{
+    opacity: 0.9;
+}
+.portfolio .text-control h5{
+    color: #fff;
+    margin: 0;
+}
+.portfolio .text-control p{
+    color: #fff;
+}
+.portfolio .image{
+    background: url(../image/portfolio1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio .port-lower-row-margin{
+    margin-top: 2px;
+}
+/*Portfolio Section end*/
+/*About Section Start*/
+.about .card{ 
+    width: 100% !important;
+    border: none;
+}
+.about .card-body{
+    padding-left: 0px;
+}
+.about h3{
+    font-family: 'Raleway', serif;
+    color: #2d3033;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 8%;
+    text-transform: uppercase;
+}
+.about h5{
+    font-family: 'Raleway', serif;
+    color: #e84545;
+    font-size: 13px;
+}
+.about p{  
+    font-family: 'Raleway', serif;
+    color: #a7aaaf;
+    font-size: 14px;
+}
+.about .nav-menu{
+    display: flex;
+}
+.about .nav-menu .nav-link{ 
+    border: 1px solid #c6cacc;
+    margin-right: 2%;
+}
+.about .nav-menu .nav-link .fa{  
+    color: #c6cacc;
+}
+/*About Section end*/
+/*Carousel section Start*/
+.carousel .row{
+   margin: 0;
+}
+.carousel .col-12{
+    padding:0;
+}
+.carousel .carousel-left{
+   padding:0;
+}
+.carousel .carousel-indicators{
+    width: 20%;
+    margin-left: 65%;
+}
+.carousel .carousel-background{
+    background: #53354a;
+    padding-left: 0;
+}
+.carousel .carousel-background .upper-p{
+    color: #fff;
+    font-family: 'Cardo italic', sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    padding-left: 10%;  
+    padding-right: 10%;
+    padding-top: 60px;
+}
+.carousel .carousel-background .lower-p{   
+    font-family: 'Raleway', serif;  
+    font-size: 13px; 
+    color: #fff; 
+    padding-left: 10%;
+}
+.carousel .carousel-indicators .carousel-dotted{
+    width: 10px; 
+    border-radius: 80%;  
+    height: 10px;
+}
+/*Carousel Section end*/
+/*About-2 Section Start*/
+.about-2 h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    color: #2d3033;
+}
+.about-2 h5{
+    color: #2d3033;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+.about-2 .btn{
+    background: #e84545;
+    border: none;
+    border-radius: 0;
+    color: #fff;  
+    text-transform: uppercase; 
+    padding: 8px 32px;
+}
+.about-2 .btn:hover{  
+    background: linear-gradient(to right, rgba(200, 20, 23, 1), rgba(202,66,23,1));
+    transition: all 0.5s ease-in-out;
+}
+/*About-2 Section End*/
+/*About-3 Section Start*/
+.about-3{
+    background: #3a3e64;
+}
+.about-3 .about-3-control{
+    display: flex;
+}
+.about-3 .about-3-control h5{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #FFF;
+}
+.about-3 .about-3-control p{
+    font-size: 14px;
+    color: #afb0bc;
+}
+.about-3 .about-3-control .text-1{  
+    flex-grow: 3;  
+    width: 100%; 
+    text-align: center;
+}
+.about-3 .about-3-control .text-2{
+    flex-grow: 3; 
+    width: 100%; 
+    text-align: center;
+}
+.about-3 .about-3-control .text-2 .nav-menu{ 
+    display: flex; 
+    justify-content: center;
+}
+.about-3 .about-3-control .text-2 .nav-menu .nav-link{ 
+    border: 2px solid #fff;   
+    margin: 0 2px;
+}
+.about-3 .about-3-control .text-2 .nav-menu .nav-link .fa{
+    color: #fff;
+}
+.about-3 .about-3-control .text-3{
+    flex-grow: 6;
+    width: 100%;
+    text-align: center;
+}
+.text-1-padding{
+    padding: 0 32%;
+}
+/*About-3 Section end*/
+/*Footer  section Start*/
+footer{
+    background: #313454;
+    padding: 15px 0;
+}
+footer .footer-control{
+    text-align: center;
+}
+footer .footer-control p{
+    color: #808080;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 35%;
+}
+footer .footer-control p span{   
+    color: #fff;
+}
+footer .footer-control p .fa{  
+    color: #e84545;
+}
+/*Footer Section End*/
